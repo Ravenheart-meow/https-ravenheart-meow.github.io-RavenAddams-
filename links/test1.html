@@ -197,6 +197,7 @@ body {margin:0;}
 </style>
 
 
+
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -262,13 +263,10 @@ body {margin:0;}
             <textarea class="custom-background gradient-text"></textarea>
       <br/>
       <button onclick="downloadFile()">Save File</button>
-      <script>
-      <style>
       
-                      
-</style>
-
-          const downloadFile = () => {
+	<script>
+      
+	      const downloadFile = () => {
               const link = document.createElement("a");
               const content = document.querySelector("textarea").value;
               const file = new Blob([content], { type: 'text/plain' });
