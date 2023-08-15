@@ -1,0 +1,57 @@
+/* Base styles for the text area container */
+.textarea-container {
+    position: relative;
+}
+
+/* Base styles for the text area */
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 150px;
+    /* Set the text color */
+    color: black;
+    /* Remove the border to make it look cleaner */
+    border: none;
+}
+
+/* Gradient effect for the text */
+textarea.gradient-text {
+    /* Background gradient for the text */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Apply a different gradient */
+textarea.another-gradient-text {
+    /* Background gradient for the text */
+    background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Apply a single color text */
+textarea.single-color-text {
+    color: #ff4500; /* Orange-red color */
+}
+
+/* Apply a custom color for selected text */
+textarea.gradient-text::selection {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
+
+/* Apply a different custom color for selected text */
+textarea.single-color-text::selection {
+    background: #ff4500; /* Orange-red color */
+    color: white;
+}
+
+/* Apply a background color for the wrapper */
+.textarea-wrapper {
+    background-color: black; /* Change this color to any color you desire */
+    padding: 5px; /* Optional: Add padding for a nicer look */
+}
