@@ -6,9 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  background-image: url('/var/www/html/ravenaddams/vcportfolio/assets/images/wp9153536-dark-tech-wallpapers.jpg');
-}
+
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;

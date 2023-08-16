@@ -1,0 +1,38 @@
+/* Apply a background image */
+body {
+    background-image: url('/var/www/html/ravenaddams/vcportfolio/https-ravenheart-meow.github.io-RavenAddams-/assets/images/wp9153536-dark-tech-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any other styles you want for the background */
+}
+
+/* Set font color for dark background */
+body {
+    color: white; /* Set the font color to white for better visibility on dark background */
+}
+
+/* Add styles for header, section, and button */
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent dark background for the header */
+    padding: 20px;
+}
+
+#summary {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent dark background for the summary section */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#generate-pdf {
+    padding: 10px 20px;
+    background-color: #ff4500; /* Set a contrasting color for the button on dark background */
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#generate-pdf:hover {
+    background-color: #e63900; /* Change the button color on hover for better visibility */
+}

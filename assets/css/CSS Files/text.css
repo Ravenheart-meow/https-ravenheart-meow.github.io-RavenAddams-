@@ -51,7 +51,10 @@ textarea.single-color-text::selection {
 }
 
 /* Apply a background color for the wrapper */
-.textarea-wrapper {
-    background-color: black; /* Change this color to any color you desire */
-    padding: 5px; /* Optional: Add padding for a nicer look */
+.textarea-wrapper body {
+    background-image: url('/var/www/html/ravenaddams/vcportfolio/https-ravenheart-meow.github.io-RavenAddams-/assets/images/wp9153536-dark-tech-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any other styles you want for the background */
 }
